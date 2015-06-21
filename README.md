@@ -17,16 +17,19 @@ The same holds for the training set.
 
 About the script and the tidy dataset
 -------------------------------------
-I created a script called run_analysis.R which will merge the test and training sets together.
+I created a script called run_analysis.R which will merge the test and training sets together (as asked in the assignment page in coursera).
 Prerequisites for this script:
 
-1. the UCI HAR Dataset must be extracted and..
-2. the UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
+1. The UCI HAR Dataset must be extracted.
+2. The UCI HAR Dataset must be availble in a directory called "UCI HAR Dataset"
 
 After merging testing and training, labels are added and only columns that have to do with mean and standard deviation are kept.
 
 Lastly, the script will create a tidy data set containing the means of all the columns per test subject and per activity.
+
 This tidy dataset will be written to a tab-delimited file called tidy.txt, which can also be found in this repository.
+
+The file is created using write.table function as advised in coursera.
 
 About the Code Book
 -------------------
